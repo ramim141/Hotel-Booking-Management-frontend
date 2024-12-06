@@ -1,65 +1,119 @@
-# Blue Sky Booking
+# Hotel Booking Website (BlueSkyBooking)
 
-[Blue Sky Booking](#) is a dynamic and responsive hotel booking platform, designed to provide a seamless and engaging user experience for finding and booking accommodations. This `full-stack` application combines the power of `Django REST Framework` for the backend with a modern frontend built using `HTML`, `CSS`, `Bootstrap 5`, and `JavaScript`. The platform is deployed with the backend on Render and the frontend on `Netlify`, ensuring robust and scalable performance.
+**Final Assignment**
+
+BlueSkyBooking is a comprehensive hotel booking system developed using Django REST Framework, featuring user authentication, hotel and booking management, payment processing, and review functionalities. This application supports CRUD operations for hotels and bookings, secure payments via SSLCommerz, and integrates email notifications for booking confirmations.
+
+- **Frontend GitHub:** [Hotel-Booking-Frontend](https://github.com/ramim141/Hotel-Booking-Management-frontend)
+- **Backend GitHub:** [Hotel-Booking-Website-Backend](https://github.com/ramim141/Hotel-Booking-Management-Backend)
+
+### User Access Information
+- **Admin Role:**
+```
+Username: manager
+Password: manager2004
+```
+
+
+
+## API Endpoints
+
+### Account App
+| Action                | Endpoint                                                               |
+|-----------------------|------------------------------------------------------------------------|
+| All Users             | [`/user/allUser/`](https://hotel-booking-website-backend.vercel.app/user/allUser/) |
+| Account View          | [`/user/account/`](https://hotel-booking-website-backend.vercel.app/user/account/) |
+| Register              | [`/user/register/`](https://hotel-booking-website-backend.vercel.app/user/register/) |
+| Login                 | [`/user/login/`](https://hotel-booking-website-backend.vercel.app/user/login/) |
+| Logout                | [`/user/logout/`](https://hotel-booking-website-backend.vercel.app/user/logout/) |
+| Deposit               | [`/user/deposit/`](https://hotel-booking-website-backend.vercel.app/user/deposit/) |
+| Check User Role       | [`/user/is_users_staff/`](https://hotel-booking-website-backend.vercel.app/user/is_users_staff/) |
+| Contact Admin         | [`/user/admin-messages/`](https://hotel-booking-website-backend.vercel.app/user/admin-messages/) |
+
+### Hotel App
+| Action                | Endpoint                                                               |
+|-----------------------|------------------------------------------------------------------------|
+| All Districts         | [`/hotel/districts/`](https://hotel-booking-website-backend.vercel.app/hotel/districts/) |
+| District Details      | [`/hotel/districts/1/`](https://hotel-booking-website-backend.vercel.app/hotel/districts/1/) |
+| All Hotels            | [`/hotel/hotels/`](https://hotel-booking-website-backend.vercel.app/hotel/hotels/) |
+| Hotel Details         | [`/hotel/hotels/1`](https://hotel-booking-website-backend.vercel.app/hotel/hotels/1) |
+| All Reviews           | [`/hotel/reviews/`](https://hotel-booking-website-backend.vercel.app/hotel/reviews/) |
+| Add Review            | [`/hotel/review_add/`](https://hotel-booking-website-backend.vercel.app/hotel/review_add/) |
+| Review Update/Delete  | [`/hotel/review_add/1/`](https://hotel-booking-website-backend.vercel.app/hotel/review_add/1/) |
+| All Bookings          | [`/hotel/bookings/`](https://hotel-booking-website-backend.vercel.app/hotel/bookings/) |
+| Book a Hotel          | [`/hotel/book/`](https://hotel-booking-website-backend.vercel.app/hotel/book/) |
+| Download Booking PDF  | [`/hotel/download-booking-pdf/1/`](https://hotel-booking-website-backend.vercel.app/hotel/download-booking-pdf/1/) |
+
+### Payment App
+| Action                | Endpoint                                                               |
+|-----------------------|------------------------------------------------------------------------|
+| Payment Booking       | [`/payment/payment-booking/`](https://hotel-booking-website-backend.vercel.app/payment/payment-booking/) |
+| Payment Success       | [`/payment/success/`](https://hotel-booking-website-backend.vercel.app/payment/success/) |
+| Payment Failed        | [`/payment/fail/`](https://hotel-booking-website-backend.vercel.app/payment/fail/) |
+| Payment Cancel        | [`/payment/cancel/`](https://hotel-booking-website-backend.vercel.app/payment/cancel/) |
+
+---
 
 ## Key Features
+- **User Authentication** via Gmail OAuth
+- **CRUD Operations** for hotel and booking management
+- **Email Notifications** for booking confirmations
+- **SSLCommerz Payment Integration** for secure payments
+- **Hotel Review System** for customer feedback
+- **Scalable PostgreSQL Database** with Django Rest Framework API
 
-- **User Account Management**: Users can easily register for new accounts and log in and out securely.
-- **User Deposits**: Manage `deposits` effectively to ensure seamless booking transactions.
-- **Hotel Search and Discovery**: Find and explore hotels by `district name or hotel name`, with detailed views of hotels listed in specific districts.
-- **Booking and Payment**: A straightforward booking process with automatic `email` confirmations. Users receive detailed receipts for bookings and deposits, with options to download receipts as `PDFs`.
-- **Client Reviews**: View hotel reviews from other users and contribute by `submitting` your reviews after booking.
-- **Dynamic and Responsive Design**: The user interface is built to be dynamic and highly `responsive`, adapting smoothly to different devices and screen sizes for an optimal user experience.
-- **Modern UI**: Leveraging Bootstrap 5, the platform features a sleek and contemporary design, ensuring a visually appealing and intuitive user interface.
-- **Admin Role Management**: Admins can manage `roles`, add or delete districts, add, delete, or edit hotels, delete users and reviews, and view a dashboard with hotel overviews and booking lists.
-- **Payment Gateway Integration**: Secure and reliable `payment` processing through `SSLCommerz`, ensuring smooth and safe transactions for bookings and deposits.
+---
 
-## Technologies Used
-
-- **Backend**: Developed using `Django REST Framework` with `PostgreSQL` as the database, hosted on `Render` for scalable and secure backend operations.
-- **Frontend**: Crafted with `HTML`, `CSS`, `Bootstrap 5`, and `JavaScript`, ensuring a dynamic and responsive user interface.
-- **Email Notifications**: Automated email notifications for `deposits, login, registration, and booking confirmations` enhance user engagement and provide important updates.
-- **PDF Generation**: Users can `download` their booking receipts in `PDF format`, offering convenient documentation and record-keeping.
-- **Dynamic Content**: The platform supports `dynamic` updates and real-time interactions, providing a smooth and engaging user experience.
-
-## Repositories
-
-- **Frontend Repository**: [Blue Sky Booking Frontend](https://github.com/ramim141/Hotel-Booking-Management-frontend)
-- **Backend Repository**: [Blue Sky Booking Backend](https://github.com/ramim141/Hotel-Booking-Management-Backend)
-
-
-### Project frontend Screenshots
-### 1. Homepage and Navbar 
-![Homepage and Navbar ](assets/Navbar-and-Home-slider.png)
-
-### 2. Search and Filter section
-![Search and Filter](assets/search-and-filter-section.png)
-
-### 3. Services 
-![Services](assets/services-section.png)
-
-### 4. Room Details
-![Room Details](assets/room-details-page.png)
-
-### 5. About Us
-![About Us](assets/about-us-section.png)
-
-### 6. Signup
-![Signup](assets/signup-page.png)
-
-### 7.Log in
-![Log in](assets/login-page.png)
-
-### 8. Booking section
-![Booking section](assets/booking-section.png)
-
-### 9. Promotion section
-![Promotion section](assets/promotion-section.png)
-
-### 10. Footer
-![Footer](assets/footer-section.png)
+## Tech Stack
+- **Backend:** Django, Django REST Framework
+- **Database:** PostgreSQL
+- **Authentication:** OAuth2 via Gmail
+- **Payment Gateway:** SSLCommerz
 
 
 ---
 
-**Blue Sky Booking** - Revolutionizing the way you book hotels.
+## Installation and Setup
+
+1. **Clone the repository:**
+ ```bash
+ 
+git clone https://github.com/ramim141/Hotel-Booking-Management-Backend.git
+
+```
+
+Install dependencies:
+```
+pip install -r requirements.txt
+
+```
+Run migrations:
+```
+ python manage.py migrate
+```
+
+Create a superuser:
+```
+python manage.py createsuperuser
+```
+Run the server:
+```
+python manage.py runserver
+```
+
+Run Tests:
+
+```
+python manage.py runserver
+```
+
+
+License
+This project is licensed under the MIT License.
+You can save this code as `README.md` in your project repository. It includes all the necessary information for users and developers to understand your project.
+
+
+
+
+
+
