@@ -17,15 +17,12 @@
 ## Technologies Used
 
 - **Backend**: Developed using `Django REST Framework` with `PostgreSQL` as the database, hosted on `Render` for scalable and secure backend operations.
-- **Frontend**: Crafted with `HTML`, `CSS`, `Bootstrap 5`, and `JavaScript`, ensuring a dynamic and responsive user interface. Deployed on Netlify for efficient and reliable content delivery.
+- **Frontend**: Crafted with `HTML`, `CSS`, `Bootstrap 5`, and `JavaScript`, ensuring a dynamic and responsive user interface.
 - **Email Notifications**: Automated email notifications for `deposits, login, registration, and booking confirmations` enhance user engagement and provide important updates.
 - **PDF Generation**: Users can `download` their booking receipts in `PDF format`, offering convenient documentation and record-keeping.
 - **Dynamic Content**: The platform supports `dynamic` updates and real-time interactions, providing a smooth and engaging user experience.
 
-## Deployment and Database
 
-- **Backend**: Hosted on Render with `PostgreSQL`, offering a robust and scalable backend infrastructure.
-- **Frontend**: Deployed on Netlify, ensuring fast and efficient content delivery for a dynamic and responsive web application.
 
 ### Project frontend Screenshots
 ### 1. Homepage and Navbar 
