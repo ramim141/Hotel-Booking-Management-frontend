@@ -22,6 +22,10 @@
 - **PDF Generation**: Users can `download` their booking receipts in `PDF format`, offering convenient documentation and record-keeping.
 - **Dynamic Content**: The platform supports `dynamic` updates and real-time interactions, providing a smooth and engaging user experience.
 
+## Repositories
+
+- **Frontend Repository**: [Blue Sky Booking Frontend](https://github.com/ramim141/Hotel-Booking-Management-frontend)
+- **Backend Repository**: [Blue Sky Booking Backend](https://github.com/ramim141/Hotel-Booking-Management-Backend)
 
 
 ### Project frontend Screenshots
