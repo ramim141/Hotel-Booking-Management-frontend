@@ -1,6 +1,6 @@
 # Blue Sky Booking
 
-[Blue Sky Booking](https://bluskybooking.netlify.app/) is a dynamic and responsive hotel booking platform, designed to provide a seamless and engaging user experience for finding and booking accommodations. This `full-stack` application combines the power of `Django REST Framework` for the backend with a modern frontend built using `HTML`, `CSS`, `Bootstrap 5`, and `JavaScript`. The platform is deployed with the backend on Render and the frontend on `Netlify`, ensuring robust and scalable performance.
+[Blue Sky Booking](#) is a dynamic and responsive hotel booking platform, designed to provide a seamless and engaging user experience for finding and booking accommodations. This `full-stack` application combines the power of `Django REST Framework` for the backend with a modern frontend built using `HTML`, `CSS`, `Bootstrap 5`, and `JavaScript`. The platform is deployed with the backend on Render and the frontend on `Netlify`, ensuring robust and scalable performance.
 
 ## Key Features
 
@@ -27,10 +27,40 @@
 - **Backend**: Hosted on Render with `PostgreSQL`, offering a robust and scalable backend infrastructure.
 - **Frontend**: Deployed on Netlify, ensuring fast and efficient content delivery for a dynamic and responsive web application.
 
-### Project Links
+### Project frontend Screenshots
+### 1. Homepage and Navbar 
+![Homepage and Navbar ](assets/Navbar-and-Home-slider.png)
 
-- **Live Site**: [Blue Sky Booking](https://bluskybooking.netlify.app/)
-- **Documentation**: [Project Documentation](https://docs.google.com/document/d/19582F3Q9vVEHbgxc0a04T7bQ5Walad3n8ydikLBDnq8/edit?usp=sharing)
+### 2. Search and Filter section
+![Search and Filter](assets/search-and-filter-section.png)
+
+### 3. Services 
+![Services](assets/services-section.pngg)
+
+### 4. Services 
+![Services](assets/services-section.pngg)
+
+### 4. Room Details
+![Room Details](assets/room-details-page.png)
+
+### 5. About Us
+![About Us](assets/about-us-section.png)
+
+### 6. Signup
+![Signup](assets/signup-page.png)
+
+### 7.Log in
+![Log in](assets/login-page.png)
+
+### 8. Booking section
+![Booking section](assets/booking-section.png)
+
+### 9. Promotion section
+![Promotion section](assets/promotion-section.png)
+
+### 10. Footer
+![Footer](assets/footer-section.png)
+
 
 ---
 
