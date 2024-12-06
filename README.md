@@ -35,10 +35,7 @@
 ![Search and Filter](assets/search-and-filter-section.png)
 
 ### 3. Services 
-![Services](assets/services-section.pngg)
-
-### 4. Services 
-![Services](assets/services-section.pngg)
+![Services](assets/services-section.png)
 
 ### 4. Room Details
 ![Room Details](assets/room-details-page.png)
