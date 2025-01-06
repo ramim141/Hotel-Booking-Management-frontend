@@ -60,7 +60,7 @@
 ![Manager Dashboard](assets/manager.png)
 
 ### 11. Manager Unsermanagement section
-![Manager Unsermanagement sectionn](assets/manager_unsermanagement.png)
+![Manager Unsermanagement sectionn](assets/manager_management.png)
 
 ### 12. Footer
 ![Footer](assets/footer-section.png)
