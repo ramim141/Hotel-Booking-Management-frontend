@@ -57,10 +57,10 @@
 ![Promotion section](assets/promotion-section.png)
 
 ### 10. Manager Dashboard
-![Promotion section](assets/manager.png)
+![Manager Dashboard](assets/manager.png)
 
 ### 11. Manager Unsermanagement section
-![Promotion section](assets/manager_unsermanagement.png)
+![Manager Unsermanagement sectionn](assets/manager_unsermanagement.png)
 
 ### 12. Footer
 ![Footer](assets/footer-section.png)
